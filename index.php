@@ -25,12 +25,14 @@ $servername = "remotemysql.com";
 
     $sql = "INSERT INTO products  (id, name, brand,bprice,sprice) VALUES ($id, $name, $brand,$bprice,$sprice)";
     if ($conn->query($sql) === TRUE) {
+      echo 'Connected successfully';
         $details[]=array(
             'status'=>'success'
         );
         
     } 
     else {
+      echo 'Connected unsuccessfully';
         $details[]=array(
             'status'=>"Error updating record: " . $conn->error
     );
