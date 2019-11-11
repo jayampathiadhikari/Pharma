@@ -18,9 +18,9 @@ if ($conn->connect_error) {
 // $bprice = $_POST['bprice'];
 // $sprice = $_POST['sprice'];
 
-$ID = 70;
-$name = 'jkje';
-$brand = 'fuk';
+$ID = 80;
+$name = 'jkjhje';
+$brand = 'fjkljuk';
 $buying_price = 10;
 $selling_price = 20;
 
