@@ -23,7 +23,7 @@ $servername = "remotemysql.com";
     $bprice = 10;
     $sprice = 20;
 
-    $sql = "INSERT INTO products  (id, name, brand,bprice,sprice) VALUES ($id, $name, $brand,$bprice,$sprice)";
+    $sql = "INSERT INTO products VALUES ($id, $name, $brand,$bprice,$sprice)";
     if ($conn->query($sql) === TRUE) {
       echo 'Connected successfully';
         $details[]=array(
