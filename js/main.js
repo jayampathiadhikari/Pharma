@@ -30,6 +30,7 @@ jQuery(document).ready(function($) {
 	  );
 
 	function addItem(id,name,brand,bprice,sprice){
+		console.log('ajax inside')
 		$.ajax({
 			url:'item.php',
 			type: 'POST',
@@ -44,6 +45,9 @@ jQuery(document).ready(function($) {
 			async: true,
 			success: function(data){
 				console.log(data);
+			},
+			error: function(e){
+				console.log(e);
 			}
 
 		})
