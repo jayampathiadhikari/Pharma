@@ -20,35 +20,35 @@ $servername = "remotemysql.com";
     $id = 10;
     $name = 'jayx';
     $brand = 'fuk';
-    $bprice = 'dsd';
-    $sprice = 'sdfdf';
+    $bprice = 10;
+    $sprice = 20;
 
-    // $sql = "INSERT INTO products  (id, name, brand,bprice,sprice) VALUES ($id, $name, $brand,$bprice,$sprice)";
-    // if ($conn->query($sql) === TRUE) {
-    //   echo 'Connected successfully';
-    //     $details[]=array(
-    //         'status'=>'success'
-    //     );
+    $sql = "INSERT INTO products  (id, name, brand,bprice,sprice) VALUES ($id, $name, $brand,$bprice,$sprice)";
+    if ($conn->query($sql) === TRUE) {
+      echo 'Connected successfully';
+        $details[]=array(
+            'status'=>'success'
+        );
         
-    // } 
-    // else {
-    //   echo 'Connected unsuccessfully';
-    //     $details[]=array(
-    //         'status'=>"Error updating record: " . $conn->error
-    // );
+    } 
+    else {
+      echo 'Connected unsuccessfully';
+        $details[]=array(
+            'status'=>"Error updating record: " . $conn->error
+    );
 
-    // };
-    $sql = "SELECT * FROM products";
-    $result = $conn->query($sql);
+    };
+    // $sql = "SELECT * FROM products";
+    // $result = $conn->query($sql);
 
-    if ($result->num_rows > 0) {
-        // output data of each row
-        while($row = $result->fetch_assoc()) {
-            echo "id: " . $row["ID"]. " - Name: " . $row["name"]. " " . $row["brand"]. "<br>";
-        }
-    } else {
-        echo "0 results";
-    }
-    $conn->close();
+    // if ($result->num_rows > 0) {
+    //     // output data of each row
+    //     while($row = $result->fetch_assoc()) {
+    //         echo "id: " . $row["ID"]. " - Name: " . $row["name"]. " " . $row["brand"]. "<br>";
+    //     }
+    // } else {
+    //     echo "0 results";
+    // }
+    // $conn->close();
 
 ?>
