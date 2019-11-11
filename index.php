@@ -32,7 +32,7 @@ $servername = "remotemysql.com";
         
     } 
     else {
-      echo 'Connected unsuccessfully';
+      echo 'Connected unsuccessfully'. $conn->error;
         $details[]=array(
             'status'=>"Error updating record: " . $conn->error
     );
