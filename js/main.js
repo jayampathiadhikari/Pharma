@@ -42,8 +42,8 @@ jQuery(document).ready(function($) {
 
 			},
 			async: true,
-			success: function(){
-				console.log('success');
+			success: function(data){
+				console.log(data);
 			}
 
 		})
