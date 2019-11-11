@@ -1,4 +1,5 @@
-<?php
+<?php ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <!-- site-menu js-clone-nav d-none d-lg-block : here navigation -->
@@ -389,4 +390,3 @@
 </body>
 
 </html>
->
