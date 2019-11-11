@@ -25,6 +25,30 @@ jQuery(document).ready(function($) {
             };
         }
 	};
+	$( "#submitForm" ).submit(
+		addItem(10,'newd','coke',10,50)
+	  );
+
+	function addItem(id,name,brand,bprice,sprice){
+		$.ajax({
+			url:'item.php',
+			type: 'POST',
+			data: {
+                'id': id,
+                'name': name,
+				'brand': brand,
+				'bprice':bprice,
+				'sprice':sprice,
+
+			},
+			async: true,
+			success: function(){
+				console.log('success');
+			}
+
+		})
+	}
+
 	
 	var slider = function() {
 		$('.nonloop-block-3').owlCarousel({
