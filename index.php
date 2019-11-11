@@ -17,13 +17,13 @@ $servername = "remotemysql.com";
     // $bprice = $_POST['bprice'];
     // $sprice = $_POST['sprice'];
 
-    $id = 70;
-    $name = 'tfhgfhg';
+    $ID = 70;
+    $name = 'jkje';
     $brand = 'fuk';
-    $bprice = 10;
-    $sprice = 20;
+    $buying_price = 10;
+    $selling_price = 20;
 
-    $sql = "INSERT INTO products(ID,name,brand,buying_price,selling_price) VALUES ($id, $name, $brand,$bprice,$sprice)";
+    $sql="INSERT INTO `products`(`ID`, `name`, `brand`, `buying_price`, `selling_price`) VALUES ('$ID','$name','$brand','$buying_price','$selling_price')";
     if ($conn->query($sql) === TRUE) {
       echo 'Connected successfully';
         $details[]=array(
