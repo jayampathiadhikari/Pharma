@@ -1,6 +1,7 @@
 
 <?php 
 
+echo("hello world");
 
 $servername = "remotemysql.com";
 $username = "NUlBMh0F3u";
@@ -16,12 +17,17 @@ if ($conn->connect_error) {
 
 $name = $_POST['name'];
 $brand = $_POST['brand'];
-$amount = $_POST['amount'];
+$amount = $_post['amount'];
 $bprice = $_POST['bprice'];
 $sprice = $_POST['sprice'];
 
+// $ID = 80;
+// $name = 'jkjhje';
+// $brand = 'fjkljuk';
+// $buying_price = 10;
+// $selling_price = 20;
 
-$sql="INSERT INTO `drugs`( `name`, `brand`, `buying_price`, `selling_price`) VALUES ($name','$brand','$buying_price','$selling_price')";
+$sql="INSERT INTO `products`( `name`, `brand`, `buying_price`, `selling_price`) VALUES ($name','$brand','$buying_price','$selling_price')";
 if ($conn->query($sql) === TRUE) {
   echo 'Connected successfully';
     $details[]=array(
