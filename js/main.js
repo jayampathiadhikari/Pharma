@@ -28,7 +28,7 @@ jQuery(document).ready(function($) {
 	$( "#submitForm" ).submit(
 		
 
-		addItem($('#name').val(),$('#brand').val(),$('#amount').val(),('#bprice').val(),('#sprice').val())
+		addItem($('#name').val(),$('#brand').val(),$('#amount').val(),$('#bprice').val(),$('#sprice').val())
 
 	  );
 
