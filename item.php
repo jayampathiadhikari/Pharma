@@ -21,7 +21,7 @@ $bprice = $_POST['bprice'];
 $sprice = $_POST['sprice'];
 
 
-$sql="INSERT INTO `drugs`( `name`, `brand`, `buying_price`, `selling_price`) VALUES ($name','$brand','$buying_price','$selling_price')";
+$sql="INSERT INTO drugs (name,brand,buying_price,selling_price) VALUES ($name,$brand,$bprice,$sprice)";
 if ($conn->query($sql) === TRUE) {
   echo 'Connected successfully';
     $details[]=array(
