@@ -14,19 +14,19 @@ if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
 }
 
-// $id = $_POST['id'];
-// $name = $_POST['name'];
-// $brand = $_POST['brand'];
-// $bprice = $_POST['bprice'];
-// $sprice = $_POST['sprice'];
 
-$ID = 80;
-$name = 'jkjhje';
-$brand = 'fjkljuk';
-$buying_price = 10;
-$selling_price = 20;
+$name = $_POST['name'];
+$brand = $_POST['brand'];
+$bprice = $_POST['bprice'];
+$sprice = $_POST['sprice'];
 
-$sql="INSERT INTO `products`(`ID`, `name`, `brand`, `buying_price`, `selling_price`) VALUES ('$ID','$name','$brand','$buying_price','$selling_price')";
+// $ID = 80;
+// $name = 'jkjhje';
+// $brand = 'fjkljuk';
+// $buying_price = 10;
+// $selling_price = 20;
+
+$sql="INSERT INTO `products`( `name`, `brand`, `buying_price`, `selling_price`) VALUES ($name','$brand','$buying_price','$selling_price')";
 if ($conn->query($sql) === TRUE) {
   echo 'Connected successfully';
     $details[]=array(

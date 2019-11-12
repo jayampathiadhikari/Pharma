@@ -26,10 +26,13 @@ jQuery(document).ready(function($) {
         }
 	};
 	$( "#submitForm" ).submit(
-		addItem(10,'newd','coke',10,50)
+		
+
+		addItem($('#name').val(),$('#brand').val(),$('#amount').val(),('#bprice').val(),('#sprice').val())
+		
 	  );
 
-	function addItem(id,name,brand,bprice,sprice){
+	function addItem(name,brand,bprice,sprice){
 		console.log('ajax inside')
 		// $.ajax({
 		// 	url:'./item.php',
@@ -64,7 +67,7 @@ jQuery(document).ready(function($) {
 			},
 			async: true,
 			success: function(data){
-				console.log('data');
+				console.log(data);
 			},
 			error: function(e){
 				console.log("fauil");
