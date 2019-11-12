@@ -29,7 +29,7 @@ jQuery(document).ready(function($) {
 		
 
 		addItem($('#name').val(),$('#brand').val(),$('#amount').val(),('#bprice').val(),('#sprice').val())
-		
+
 	  );
 
 	function addItem(name,brand,bprice,sprice){
