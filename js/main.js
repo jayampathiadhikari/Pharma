@@ -32,7 +32,7 @@ jQuery(document).ready(function($) {
 
 	  );
 
-	function addItem(name,brand,bprice,sprice){
+	function addItem(name,brand,amount,bprice,sprice){
 		console.log('ajax inside')
 		// $.ajax({
 		// 	url:'./item.php',
