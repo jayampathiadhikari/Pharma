@@ -58,9 +58,10 @@ jQuery(document).ready(function($) {
 			url:'../item.php',
 			type: 'POST',
 			data: {
-                'id': id,
+                
                 'name': name,
 				'brand': brand,
+				'amount':amount,
 				'bprice':bprice,
 				'sprice':sprice,
 
