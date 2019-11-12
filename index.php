@@ -53,24 +53,25 @@
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="shop.html">Store</a></li>
                 <li class="has-children">
-                  <a href="#">Dropdown</a>
+                  <a href="#">Products</a>
                   <ul class="dropdown">
-                    <li><a href="#">Supplements</a></li>
-                    <li class="has-children">
-                      <a href="#">Vitamins</a>
-                      <ul class="dropdown">
-                        <li><a href="#">Supplements</a></li>
-                        <li><a href="#">Vitamins</a></li>
-                        <li><a href="#">Diet &amp; Nutrition</a></li>
-                        <li><a href="#">Tea &amp; Coffee</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#">Diet &amp; Nutrition</a></li>
-                    <li><a href="#">Tea &amp; Coffee</a></li>
+                    <li><a href="item.html">Add product</a></li>
+                    <li><a href="#">Update product</a></li>
+                    <li><a href="#">Expired product</a></li>
+                    <li><a href="#">Product performance</a></li>
+                    <li><a href="#">Stock Summary</a></li>
                     
                   </ul>
                 </li>
-                <li><a href="item.html">Add</a></li>
+                <li class="has-children">
+                  <a href="#">Reports</a>
+                  <ul class="dropdown">
+                      <li><a href="weekly_report.html">Weekly Report</a></li>
+                      <li><a href="monthly_report.html">Monthly Report</a></li>
+                      <li><a href="annual_report.html">Annual Report</a></li>
+                    
+                  </ul>
+                </li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
               </ul>
@@ -111,9 +112,8 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
             <div class="banner-wrap bg-primary h-100">
               <a href="#" class="h-100">
-                <h5>Free <br> Shipping</h5>
+                <h5>Best <br> Products</h5>
                 <p>
-                  Amet sit amet dolor
                   <strong>Lorem, ipsum dolor sit amet consectetur adipisicing.</strong>
                 </p>
               </a>
@@ -159,35 +159,35 @@
             <span class="tag">Sale</span>
             <a href="shop-single.html"> <img src="images/product_01.png" alt="Image"></a>
             <h3 class="text-dark"><a href="shop-single.html">Bioderma</a></h3>
-            <p class="price"><del>95.00</del> &mdash; $55.00</p>
+            <p class="price"><del>95.00</del> &mdash; Rs 55.00</p>
           </div>
           <div class="col-sm-6 col-lg-4 text-center item mb-4">
             <a href="shop-single.html"> <img src="images/product_02.png" alt="Image"></a>
             <h3 class="text-dark"><a href="shop-single.html">Chanca Piedra</a></h3>
-            <p class="price">$70.00</p>
+            <p class="price">Rs 70.00</p>
           </div>
           <div class="col-sm-6 col-lg-4 text-center item mb-4">
             <a href="shop-single.html"> <img src="images/product_03.png" alt="Image"></a>
             <h3 class="text-dark"><a href="shop-single.html">Umcka Cold Care</a></h3>
-            <p class="price">$120.00</p>
+            <p class="price">Rs 120.00</p>
           </div>
 
           <div class="col-sm-6 col-lg-4 text-center item mb-4">
 
             <a href="shop-single.html"> <img src="images/product_04.png" alt="Image"></a>
             <h3 class="text-dark"><a href="shop-single.html">Cetyl Pure</a></h3>
-            <p class="price"><del>45.00</del> &mdash; $20.00</p>
+            <p class="price"><del>45.00</del> &mdash; Rs 20.00</p>
           </div>
           <div class="col-sm-6 col-lg-4 text-center item mb-4">
             <a href="shop-single.html"> <img src="images/product_05.png" alt="Image"></a>
             <h3 class="text-dark"><a href="shop-single.html">CLA Core</a></h3>
-            <p class="price">$38.00</p>
+            <p class="price">Rs 38.00</p>
           </div>
           <div class="col-sm-6 col-lg-4 text-center item mb-4">
             <span class="tag">Sale</span>
             <a href="shop-single.html"> <img src="images/product_06.png" alt="Image"></a>
             <h3 class="text-dark"><a href="shop-single.html">Poo Pourri</a></h3>
-            <p class="price"><del>$89</del> &mdash; $38.00</p>
+            <p class="price"><del>Rs 89</del> &mdash; Rs 38.00</p>
           </div>
         </div>
         <div class="row mt-5">
@@ -213,25 +213,25 @@
               <div class="text-center item mb-4">
                 <a href="shop-single.html"> <img src="images/product_03.png" alt="Image"></a>
                 <h3 class="text-dark"><a href="shop-single.html">Umcka Cold Care</a></h3>
-                <p class="price">$120.00</p>
+                <p class="price">Rs 120.00</p>
               </div>
 
               <div class="text-center item mb-4">
                 <a href="shop-single.html"> <img src="images/product_01.png" alt="Image"></a>
                 <h3 class="text-dark"><a href="shop-single.html">Umcka Cold Care</a></h3>
-                <p class="price">$120.00</p>
+                <p class="price">Rs 120.00</p>
               </div>
 
               <div class="text-center item mb-4">
                 <a href="shop-single.html"> <img src="images/product_02.png" alt="Image"></a>
                 <h3 class="text-dark"><a href="shop-single.html">Umcka Cold Care</a></h3>
-                <p class="price">$120.00</p>
+                <p class="price">Rs 120.00</p>
               </div>
 
               <div class="text-center item mb-4">
                 <a href="shop-single.html"> <img src="images/product_04.png" alt="Image"></a>
                 <h3 class="text-dark"><a href="shop-single.html">Umcka Cold Care</a></h3>
-                <p class="price">$120.00</p>
+                <p class="price">Rs 120.00</p>
               </div>
 
             </div>
@@ -240,64 +240,6 @@
       </div>
     </div>
 
-    <div class="site-section">
-      <div class="container">
-        <div class="row">
-          <div class="title-section text-center col-12">
-            <h2 class="text-uppercase">Testimonials</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 block-3 products-wrap">
-            <div class="nonloop-block-3 no-direction owl-carousel">
-        
-              <div class="testimony">
-                <blockquote>
-                  <img src="images/person_1.jpg" alt="Image" class="img-fluid w-25 mb-4 rounded-circle">
-                  <p>&ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam tempore obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod tenetur ducimus. Minus ratione sit quaerat unde.&rdquo;</p>
-                </blockquote>
-
-                <p>&mdash; Kelly Holmes</p>
-              </div>
-        
-              <div class="testimony">
-                <blockquote>
-                  <img src="images/person_2.jpg" alt="Image" class="img-fluid w-25 mb-4 rounded-circle">
-                  <p>&ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam tempore
-                    obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod tenetur ducimus. Minus ratione sit quaerat
-                    unde.&rdquo;</p>
-                </blockquote>
-              
-                <p>&mdash; Rebecca Morando</p>
-              </div>
-        
-              <div class="testimony">
-                <blockquote>
-                  <img src="images/person_3.jpg" alt="Image" class="img-fluid w-25 mb-4 rounded-circle">
-                  <p>&ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam tempore
-                    obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod tenetur ducimus. Minus ratione sit quaerat
-                    unde.&rdquo;</p>
-                </blockquote>
-              
-                <p>&mdash; Lucas Gallone</p>
-              </div>
-        
-              <div class="testimony">
-                <blockquote>
-                  <img src="images/person_4.jpg" alt="Image" class="img-fluid w-25 mb-4 rounded-circle">
-                  <p>&ldquo;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem consectetur quam tempore
-                    obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod tenetur ducimus. Minus ratione sit quaerat
-                    unde.&rdquo;</p>
-                </blockquote>
-              
-                <p>&mdash; Andrew Neel</p>
-              </div>
-        
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <div class="site-section bg-secondary bg-image" style="background-image: url('images/bg_2.jpg');">
       <div class="container">
@@ -326,56 +268,56 @@
 
 
     <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-
-            <div class="block-7">
-              <h3 class="footer-heading mb-4">About Us</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quae reiciendis distinctio voluptates
-                sed dolorum excepturi iure eaque, aut unde.</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+  
+              <div class="block-7">
+                <h3 class="footer-heading mb-4">About Us</h3>
+                <p>Pharma is a locally-owned, community pharmacy situated in Franklin, North Carolina. 
+                    By serving our customers fairly and diligently, we were able to create a firm reputation in the pharmacy industry.
+                     Our unique business model allows us to catch and fulfill each of your expectations and at the same time accomplish our customer-centered goals.</p>
+              </div>
+  
             </div>
-
-          </div>
-          <div class="col-lg-3 mx-auto mb-5 mb-lg-0">
-            <h3 class="footer-heading mb-4">Quick Links</h3>
-            <ul class="list-unstyled">
-              <li><a href="#">Supplements</a></li>
-              <li><a href="#">Vitamins</a></li>
-              <li><a href="#">Diet &amp; Nutrition</a></li>
-              <li><a href="#">Tea &amp; Coffee</a></li>
-            </ul>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <div class="block-5 mb-5">
-              <h3 class="footer-heading mb-4">Contact Info</h3>
+            <div class="col-lg-3 mx-auto mb-5 mb-lg-0">
+              <h3 class="footer-heading mb-4">Quick Links</h3>
               <ul class="list-unstyled">
-                <li class="address">203 Fake St. Mountain View, San Francisco, California, USA</li>
-                <li class="phone"><a href="tel://23923929210">+2 392 3929 210</a></li>
-                <li class="email">emailaddress@domain.com</li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Report</a></li>
               </ul>
             </div>
-
-
+  
+            <div class="col-md-6 col-lg-3">
+              <div class="block-5 mb-5">
+                <h3 class="footer-heading mb-4">Contact Info</h3>
+                <ul class="list-unstyled">
+                  <li class="address">203 Fake St. Mountain View,Colombo</li>
+                  <li class="phone"><a href="tel://0770256320">+94 770256320</a></li>
+                  <li class="email">pharma@gmail.com</li>
+                </ul>
+              </div>
+  
+  
+            </div>
+          </div>
+          <div class="row pt-5 mt-5 text-center">
+            <div class="col-md-12">
+              <p>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made
+                with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank"
+                  class="text-primary">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </p>
+            </div>
+  
           </div>
         </div>
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <p>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-              Copyright &copy;
-              <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made
-              with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank"
-                class="text-primary">Colorlib</a>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-          </div>
-
-        </div>
-      </div>
-    </footer>
-  </div>
+      </footer>
+    </div>
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-ui.js"></script>
