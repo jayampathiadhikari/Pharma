@@ -16,8 +16,9 @@ if ($conn->connect_error) {
 
 
 $name = $_POST['name'];
-$brand = $_POST['brand'];
 $amount = $_post['amount'];
+$brand = $_POST['brand'];
+
 $bprice = $_POST['bprice'];
 $sprice = $_POST['sprice'];
 
