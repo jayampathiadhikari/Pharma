@@ -69,9 +69,11 @@ jQuery(document).ready(function($) {
 			async: true,
 			success: function(data){
 				console.log(data);
+				alert('Drug added successfully')
 			},
 			error: function(e){
 				console.log("fauil");
+				alert('Drug adding failed')
 			}
 
 		});
