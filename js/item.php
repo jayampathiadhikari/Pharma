@@ -1,7 +1,6 @@
 
 <?php 
 
-echo("hello world");
 
 $servername = "remotemysql.com";
 $username = "NUlBMh0F3u";
@@ -21,11 +20,6 @@ $amount = $_POST['amount'];
 $bprice = $_POST['bprice'];
 $sprice = $_POST['sprice'];
 
-// $ID = 80;
-// $name = 'jkjhje';
-// $brand = 'fjkljuk';
-// $buying_price = 10;
-// $selling_price = 20;
 
 $sql="INSERT INTO `drugs`( `name`, `brand`, `buying_price`, `selling_price`) VALUES ($name','$brand','$buying_price','$selling_price')";
 if ($conn->query($sql) === TRUE) {
