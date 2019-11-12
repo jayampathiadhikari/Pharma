@@ -31,8 +31,28 @@ jQuery(document).ready(function($) {
 
 	function addItem(id,name,brand,bprice,sprice){
 		console.log('ajax inside')
+		// $.ajax({
+		// 	url:'./item.php',
+		// 	type: 'POST',
+		// 	data: {
+        //         'id': id,
+        //         'name': name,
+		// 		'brand': brand,
+		// 		'bprice':bprice,
+		// 		'sprice':sprice,
+
+		// 	},
+		// 	async: true,
+		// 	success: function(data){
+		// 		console.log('data');
+		// 	},
+		// 	error: function(e){
+		// 		console.log("fauil");
+		// 	}
+
+		// });
 		$.ajax({
-			url:'./item.php',
+			url:'../item.php',
 			type: 'POST',
 			data: {
                 'id': id,
@@ -50,7 +70,7 @@ jQuery(document).ready(function($) {
 				console.log("fauil");
 			}
 
-		})
+		});
 	}
 
 	
