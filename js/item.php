@@ -27,7 +27,7 @@ $sprice = $_POST['sprice'];
 // $buying_price = 10;
 // $selling_price = 20;
 
-$sql="INSERT INTO `products`( `name`, `brand`, `buying_price`, `selling_price`) VALUES ($name','$brand','$buying_price','$selling_price')";
+$sql="INSERT INTO `drugs`( `name`, `brand`, `buying_price`, `selling_price`) VALUES ($name','$brand','$buying_price','$selling_price')";
 if ($conn->query($sql) === TRUE) {
   echo 'Connected successfully';
     $details[]=array(
